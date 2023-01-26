@@ -1,0 +1,49 @@
+
+
+.container{
+    margin: auto;
+    width: 60%;height: 500px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 150px;
+    background-color: red;
+}
+
+.container1{
+    background-color: greenyellow;
+    display: flex;
+   align-items: center;
+     margin: auto; 
+    width: 80%;height: 400px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 30px;
+   
+}
+
+.container2{
+
+    display: inline;
+    background-color: grey;
+  
+   text-align: center;
+     margin: auto; 
+    width: 80%;height: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 30px;
+   
+}
+.btn {
+    
+    padding: 5px;
+    border: 1px solid  rgb(91, 25, 47);
+    background-color:  rgb(91, 25, 47);;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    margin-top: 90px;
+}

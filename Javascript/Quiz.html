@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+
+		<style>
+			
+
+			button {
+				width: 90px;
+				height: 60px;
+				font-size: 30px;
+                border: 2px solid black;
+                background-color: rgb(132, 162, 162);
+			}
+
+
+			h2 {
+			text-align: center;
+				font-size: 45px;
+                margin-top: 50px;
+			}
+			
+		
+            .dot {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 4px solid black;
+
+  margin:49px 17px -12px 104px; 
+}
+
+
+.container{
+    margin-top: auto;
+}
+
+
+.btn1{
+
+    margin: 153px;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+}
+.btn{
+    position:fixed;
+    margin-top:207px;
+    
+} 
+
+		</style>
+	</head>
+
+	<body>
+
+		 <button class="btn1" onclick="reset()">Reset</button>
+
+		<div class="container">
+			<button class="btn" id="increment">+</button>
+
+            <div class="dot">
+                <h2  id="counting">0</h2>
+            </div>
+
+			<button class="btn" onclick="decrement()">-</button>
+
+            
+           
+		</div>
+		
+		<script src="./Quiz.js"></script>
+	</body>
+</html>

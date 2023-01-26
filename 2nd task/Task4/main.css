@@ -1,0 +1,43 @@
+
+/* *{
+    margin: 15px 69px;
+   
+} */
+.container{
+
+    width: 67%;
+    margin: auto;
+    
+    margin-top: 10%;
+
+}
+body{
+    border: 1px solid black;
+    padding: 0;
+}
+.head{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 500px;
+    justify-content: flex-start;
+}
+.list1{
+    line-height: 1%;
+    text-align: end;
+
+    margin: -101px 90px 0px 52px;
+ /* justify-content: flex-end; */
+ font-family:Calibri;
+ font-size:16px;
+
+}
+img{
+    /* border-style: inset; */
+    border: 5px solid #555;
+ 
+   margin: 10px 5px 10px 10px;
+   height: 127px;
+    width: 132px;
+    
+}

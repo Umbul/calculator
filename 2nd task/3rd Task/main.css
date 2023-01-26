@@ -1,0 +1,144 @@
+
+.circle{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin:auto;
+    /* position: absolute; */
+}
+
+
+
+
+.c1{
+    background: lightblue;
+    margin: -75px 0px 137px 593px;
+    position: sticky;
+    z-index: -1;
+    
+}
+.c2{
+    background: red;
+    margin: -182px 17px 50px 335px;
+    position: sticky;
+    z-index: 1;
+}
+.c3{
+    background: rgb(255, 0, 187);
+    margin: -298px 0px 66px 634px;
+    position: sticky;
+    z-index: -1;
+    
+}
+.c4{
+    background: rgb(233, 173, 173);
+    margin: -263px 0px 67px 656px;
+    position: sticky;
+    z-index: 1;
+   
+    
+}
+.c5{
+    background: rgb(185, 213, 153);
+    margin: -267px 0px 62px 652px;
+    position: sticky;
+    z-index: -1;
+    
+}
+.c6{
+    background: rgb(113, 143, 165);
+    margin: -253px 0px 62px 612px;
+    position: sticky;
+    z-index: 1;
+}
+.c7{
+    background: rgb(67, 119, 121);
+   
+    margin: -221px 0px 62px 490px;
+    position: sticky;
+    z-index: -1;
+}
+.c8{
+    background: rgb(74, 24, 24);
+    margin: -174px 3px 13px 395px;
+    position: sticky;
+    z-index: 1;
+}
+.c9{
+    background: rgb(81, 209, 158);
+    margin: -97px 3px 13px 302px;
+    position: sticky;
+    z-index: -1;
+}
+.c10{
+    background: rgb(211, 164, 174);
+    margin: -57px 3px 13px 239px;
+    position: sticky;
+    z-index: 1;
+}
+.c11{
+    background: rgb(175, 172, 214);
+    margin: -47px 3px 13px 181px;
+    position: sticky;
+    z-index: -1;
+}
+.c12{
+    background: rgb(98, 198, 138);
+    margin: -27px 3px 13px 159px;
+    position: sticky;
+    z-index: 1;
+}
+.c13{
+    background: rgb(39, 208, 146);
+    margin: -27px 3px 13px 159px;
+    position: sticky;
+    z-index: -1;
+}
+.c14{
+    background: rgb(59, 248, 97);
+    margin: -27px 3px 13px 184px;
+    position: sticky;
+    z-index: 1;
+}
+.c15{
+    background: rgb(20, 67, 28);
+   
+    margin: -54px 3px 13px 241px;
+    position: sticky;
+    z-index: -1;
+}
+.c16{
+    background: rgb(214, 42, 166);
+    margin: -99px 4px 15px 506px;
+    position: sticky;
+    z-index: 1;
+    
+}
+.c17{
+    background: rgb(214, 42, 166);
+    margin: -99px 4px 15px 506px;
+    margin: -103px 4px 15px 420px;
+    position: sticky;
+    z-index: -1;
+    
+}
+.c18{
+    background: rgb(214, 42, 166);
+
+    margin: -605px 4px 15px 560px;
+    position: absolute;
+    z-index: -1;
+
+    
+}
+
+
+.bigcircle{
+
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    margin:auto;
+}

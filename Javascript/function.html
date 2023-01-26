@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        ////////////////Function making general//////////////////////////////////////////////////////////
+/*
+ function fun_name(){ //making function,defination of fun
+ document.write("hello banin <br>");
+ }
+ function fun_name1(){ //making 2nd function, you can make function by different name
+ document.write("<b>please repeAT my name</b> <br>");
+ }
+
+ fun_name();//calling function
+ fun_name1();//calling 2nd function
+ fun_name();
+*/
+
+ //////////FUNCTION with Parameters////////////////////////////////////////////////////////////////////
+
+ /*
+ function sum(a,b)//general function for adding two numbers, a and b are parameters for function.
+{
+    document.write("sum of a+b = " , a+b);//anytype of statement you can write
+}
+
+sum(5,10);
+
+*/
+/*
+function Nam(a,b)
+{
+    document.write(a+b);
+}
+
+Nam("Umbul","banin");
+
+*/
+
+
+//////////////FUNCTION WITH RETURN VALUE/////////////////////////
+/*
+function fun1(va1,va2)//two variables receivinf from main to process in below box
+{
+var a=va1+va2;//statement is adding two variables
+return a;//after adding it returns value
+
+}
+
+var sum1;
+sum1=fun1(5,6);//we are passsing two variables to sum1 function, which were process
+document.write(sum1);//it will print the return val
+
+*/
+
+
+function fun_1()
+{ 
+   
+   var a= confirm("Do you want to record agreement?");
+if(a)
+{
+    document.write("<b><i>Your agreement has been recorded in our system</i></b>");
+}
+else{
+    document.write("not recorded" );
+}
+
+
+
+
+}
+
+</script>
+</head>
+<body>
+    <button onclick="fun_1()"> Click Me </button>
+
+</body>
+</html>
