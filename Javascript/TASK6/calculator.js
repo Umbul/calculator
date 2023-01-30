@@ -32,7 +32,7 @@ function calculate(){
 
      else
      {
-//  output.textContent += buttonText;
+ output.textContent += buttonText;
  return;
  }
     }

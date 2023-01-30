@@ -1,0 +1,13 @@
+configuration:
+1) git config --global user.name  "banin"//global set name ffor whole env(given name to git)
+2)git config --global user.name   //to verify name
+3)git config --global user.email "email"
+4) git add .
+5)git commit -m "initial commit"
+6) git remote add origin https://github.com/Umbul/calculator.git
+7) git push origin master 
+
+for adding code in git
+1)git add .
+2)git commit -m "initial commit"
+3)git push origin master 
